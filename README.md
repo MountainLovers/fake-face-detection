@@ -99,33 +99,33 @@ some collected paper and personal notes relevant to Fake Face Detetection
 1. [CVPRW 2019] [Protecting World Leaders Against Deep Fakes](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)
    - [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#cvprw-2019-protecting-world-leaders-against-deep-fakes);
    - capture the **distinct facial expression and movements of a specific person** use Action Unit (AU)
-2. [CVPRW 2019] [Exposing DeepFake Videos By Detecting FaceWarping Artifacts](https://arxiv.org/abs/1811.00656)
+2. ✅[CVPRW 2019] [Exposing DeepFake Videos By Detecting FaceWarping Artifacts](https://arxiv.org/abs/1811.00656)
    - [code](https://github.com/danmohaha/CVPRW2019_Face_Artifacts); [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#cvprw-2019-exposing-deepfake-videos-by-detecting-facewarping-artifacts);
    - improved version: [DSP-FWA](https://github.com/danmohaha/DSP-FWA)
    - current generated face have **limited resolutions** 
 3. [WIFS 2018] [In Ictu Oculi: Exposing AI Created Fake Videos by Detecting Eye Blinking](https://arxiv.org/abs/1806.02877)
    - [code](https://github.com/danmohaha/WIFS2018_In_Ictu_Oculi); [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#wifs-2018-in-ictu-oculi-exposing-ai-created-fake-videos-by-detecting-eye-blinking); 
    - The **lack of eye blinking** indicates a synthesized video
-4. [ICASSP 2019] [EXPOSING DEEP FAKES USING INCONSISTENT HEAD POSES](https://arxiv.org/abs/1811.00661)
+4. ✅[ICASSP 2019] [EXPOSING DEEP FAKES USING INCONSISTENT HEAD POSES](https://arxiv.org/abs/1811.00661)
    - [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#icassp-2019-exposing-deep-fakes-using-inconsistent-head-poses); [code](https://bitbucket.org/ericyang3721/headpose_forensic/src/master/);
    - the  mismatch between the landmarks at center and outer contour of faked faces is revealed as **inconsistent 3D head poses** estimated from **central** and **whole** facial landmarks 
 5. [arXiv 2019] [FakeCatcher: Detection of Synthetic Portrait Videos using Biological Signals](https://arxiv.org/abs/1901.02212)
    - [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#arxiv-2019-fakecatcher-detection-of-synthetic-portrait-videos-using-biological-signals);
    - **biological signals** hidden in portrait videos can be used as an implicit descriptor of authenticity, because they are **neither spatially nor temporally preserved** in fake content. 
-7. [WACVW 2019] [Exploiting Visual Artifacts to Expose Deepfakes and Face Manipulations](https://www.semanticscholar.org/paper/Exploiting-Visual-Artifacts-to-Expose-Deepfakes-and-Matern-Riess/3a8939eade51aac810ec89e4b661a7760f31357e#citing-papers)
+6. [WACVW 2019] [Exploiting Visual Artifacts to Expose Deepfakes and Face Manipulations](https://www.semanticscholar.org/paper/Exploiting-Visual-Artifacts-to-Expose-Deepfakes-and-Matern-Riess/3a8939eade51aac810ec89e4b661a7760f31357e#citing-papers)
    - [code](https://github.com/FalkoMatern/Exploiting-Visual-Artifacts); [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#wacvw-2019-exploiting-visual-artifacts-to-expose-deepfakes-and-face-manipulations);
    - detect each manipulation method according to corresponding artifacts(eye color inconsistency, hard shadow in nose/contour, missing details in teeth, etc.) 
-8. [ICCVW 2019] [Deepfake Video Detection through Optical Flow Based CNN](http://openaccess.thecvf.com/content_ICCVW_2019/html/HBU/Amerini_Deepfake_Video_Detection_through_Optical_Flow_Based_CNN_ICCVW_2019_paper.html) 
+7. [ICCVW 2019] [Deepfake Video Detection through Optical Flow Based CNN](http://openaccess.thecvf.com/content_ICCVW_2019/html/HBU/Amerini_Deepfake_Video_Detection_through_Optical_Flow_Based_CNN_ICCVW_2019_paper.html) 
    -  we propose the adoption of **optical flow** fields to exploit possible inter-frame dissimilarities. 
-9. [IMVOP 2018] [Detection of Deepfake Video Manipulation](https://www.researchgate.net/publication/329814168_Detection_of_Deepfake_Video_Manipulation) 
+8. [IMVOP 2018] [Detection of Deepfake Video Manipulation](https://www.researchgate.net/publication/329814168_Detection_of_Deepfake_Video_Manipulation) 
    - To contribute to a solution, **photo response non uniformity (PRNU) analysis** is tested for its effectiveness at detecting Deepfake video manipulation
-10. [CVPR 2020] [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
+9.  [CVPR 2020] [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
     - [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#arxiv-2019-unmasking-deepfakes-with-simple-features-1)
     - We observe that most existing face manipulation methods share a common step: **blending** the altered face into an existing background image. 
     - The face X-ray of an input face image is **a greyscale image** that reveals whether the input image can be decomposed into the blending of two images from different sources. 
-11. [arXiv 2020] [DeepFake Detection Based on DiscrepanciesBetween Faces and their Context](https://arxiv.org/abs/2008.12262)
-12. [arXiv 2020] [DeepRhythm: Exposing DeepFakes with Attentional VisualHeartbeat Rhythms](https://arxiv.org/abs/2006.07634)
-13. [CVPR 2021] [Lips Don't Lie: A Generalisable and Robust Approach To Face Forgery Detection](https://openaccess.thecvf.com/content/CVPR2021/html/Haliassos_Lips_Dont_Lie_A_Generalisable_and_Robust_Approach_To_Face_CVPR_2021_paper.html)
+10. [arXiv 2020] [DeepFake Detection Based on DiscrepanciesBetween Faces and their Context](https://arxiv.org/abs/2008.12262)
+11. [arXiv 2020] [DeepRhythm: Exposing DeepFakes with Attentional VisualHeartbeat Rhythms](https://arxiv.org/abs/2006.07634)
+12. [CVPR 2021] [Lips Don't Lie: A Generalisable and Robust Approach To Face Forgery Detection](https://openaccess.thecvf.com/content/CVPR2021/html/Haliassos_Lips_Dont_Lie_A_Generalisable_and_Robust_Approach_To_Face_CVPR_2021_paper.html)
 
 ### (2) CNN-Based
 1. [ICCV 2019] [FaceForensics++: Learning to Detect Manipulated Facial Images](https://arxiv.org/abs/1901.08971)
@@ -158,7 +158,7 @@ some collected paper and personal notes relevant to Fake Face Detetection
 8. [arXiv 2021] [Detection of Deepfake Videos Using Long Distance Attention](https://arxiv.org/abs/2106.12832)
 
 ### (4) Two Stream
-1. [CVPRW 2017] [Two-Stream Neural Networks for Tampered Face Detection](https://www.semanticscholar.org/paper/Two-Stream-Neural-Networks-for-Tampered-Face-Zhou-Han/5c04b3178af0cc5f367c833030c118701c210229#paper-header)
+1. ✅[CVPRW 2017] [Two-Stream Neural Networks for Tampered Face Detection](https://www.semanticscholar.org/paper/Two-Stream-Neural-Networks-for-Tampered-Face-Zhou-Han/5c04b3178af0cc5f367c833030c118701c210229#paper-header)
    - [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#cvprw-2017-two-stream-neural-networks-for-tampered-face-detection);
    - Face Classification stream(GoogLeNet) + Patch Triplet stream(Steganalysis feature)
 2. [TIFS 2019] [Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)
@@ -209,8 +209,9 @@ some collected paper and personal notes relevant to Fake Face Detetection
 2. [Expert Systems With Applications 2019] [Face image manipulation detection based on a convolutional neural network](https://www.sciencedirect.com/science/article/pii/S0957417419302350)
    - [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#expert-systems-with-applications-2019-face-image-manipulation-detection-based-on-a-convolutional-neural-network); 
    - a **customized** convolutional neural network model for Manipulated Face **(MANFA)** &  A **hybrid framework (HF-MANFA)** that uses **Adaptive Boosting (AdaBoost) and eXtreme Gradient Boosting (XGBoost)** to deal with the imbalanced dataset challenge 
-3. [arXiv 2019] [On the Detection of Digital Face Manipulation](https://arxiv.org/abs/1910.01717)
+3. [CVPR 2020] [On the Detection of Digital Face Manipulation](https://arxiv.org/abs/1910.01717)
    - [note](https://github.com/592McAvoy/fake-face-detection/blob/master/detect.md#arxiv-2019-on-the-detection-of-digital-face-manipulation)
+   - [Project Homepage](https://cvlab.cse.msu.edu/project-ffd.html), [DATASET](http://cvlab.cse.msu.edu/dffd-dataset.html), [code](https://github.com/JStehouwer/FFD_CVPR2020)
    - proposed a novel **attention-based layer** to improve classification performance and produce an attention map indicating the manipulated facial regions. 
 4. [arXiv 2019] [Exploiting Human Social Cognition for the Detection of Fake and Fraudulent Faces via Memory Networks](https://arxiv.org/abs/1911.07844)
    - note
