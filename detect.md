@@ -1037,3 +1037,50 @@ unseen attack:
 
 - for better generalization ability, we should focus more on correlation
 - attention with bi-GRU
+
+------
+
+### [CVPR 2021] Generalizing Face Forgery Detection with High-frequency Features
+
+#### Keywords
+
+- Generalization
+
+#### I. Observation
+
+- Current CNN-based detectors tend to **overfit to method-specific color textures** and thus fail to generalize.
+- Image noises remove color textures and expose discrepancies between authentic and tampered regions.
+
+#### II. Overview
+
+- Aim at learning a more generalizable face forgery detector.
+- The CNN-based model is biased to method-specific color textures.(Overfitting)
+- Utilize noises to tackle the overfitting problem.
+
+#### III. Method
+
+Basic idea: The performance of SRM noises is better than RGB.
+
+![](img/70.png)
+
+Three novel modules:   
+1. Multi-scale high-frequency feature extraction module: extracts high-frequency noises at multiple scales and composes a novel modality. 
+2. Residual-guided spatial attention module: guides the low-level RGB feature extractor to concentrate more on forgery traces from a new perspective.
+3. Cross-modality attention module: leverages the correlation between the two complementary modalities to promote feature learning for each other.
+
+- AM-Softmax Loss, instead of cross-entropy loss.
+
+#### IV. Performance
+
+![](img/71.png)
+
+Trained on F2F and examined on all four datasets. Table 3 demonstrates the benefit of each module.
+
+![](img/72.png)
+
+Cross-database evaluation shows that the  outstanding generalization of the model.
+
+#### V. Comment
+
+- Extending the SRM noises feature for detecting, which is the "domain knowledge".
+- Improve the attention module.
