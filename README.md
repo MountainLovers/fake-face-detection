@@ -167,7 +167,9 @@ some collected paper and personal notes relevant to Fake Face Detetection
 3. [arXiv 2019] [Complement Face Forensic Detection and Localization with Facial Landmarks](https://arxiv.org/abs/1910.05455)
    - face landmark + RGB
 4. [ICASSP 2020] [SSTNet: Detecting Manipulated Faces Through Spatial, Steganalysis and Temporal Features](https://ieeexplore.ieee.org/abstract/document/9053969)
-
+   - [note](https://github.com/MountainLovers/fake-face-detection/blob/master/detect.md#icassp-2020-sstnet-detecting-manipulated-faces-through-spatial-steganalysis-and-temporal-features)
+   - A novel constraint for automatically extracting SRM steganalysis features.
+   - Combine three dimension features.
 ### (5) Auto-encoder
 1. [arXiv 2018] [ForensicTransfer: Weakly-supervised Domain Adaptation for Forgery Detection](https://arxiv.org/abs/1812.02510)
    - [note](https://github.com/MountainLovers/fake-face-detection/blob/master/detect.md#arxiv-2018-forensictransfer-weakly-supervised-domain-adaptation-for-forgery-detection);

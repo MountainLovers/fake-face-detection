@@ -1084,3 +1084,27 @@ Cross-database evaluation shows that the  outstanding generalization of the mode
 
 - Extending the SRM noises feature for detecting, which is the "domain knowledge".
 - Improve the attention module.
+
+### [ICASSP 2020] SSTNET: Detecting Manipulated faces through spatial, steganalysis and temporal features
+
+#### I. Overview
+
+- Detect tampered faces through **Spatial**, **Steganalysis** and **Temporal** features. (named SST)
+- A novel constraint for automatically extracting steganalysis features instead of using hand-crafted filters.
+
+#### II. Method
+
+![](img/73.png)
+
+- **Spatial features**: extracte by a deep mopdel XceptionNet for detecting middle-level and high-level artifacts.
+- **Steganalysis features**: extracted by a simplified XceptionNet with a constraint on convolutional filers to force the network to learn statstical characteristics of image pixels rather than image content. Using steganalysis rich model (SRM).
+- Combine the two features: fusion layer to assign the importance of each feature.
+- **Temporal features**: use a recurrent neural network on top of the fusion layer. Using LSTM.
+
+#### III. Performance
+
+![](img/74.png)
+
+#### IV. Comment
+- Combine spatial, steganalysis and temporal features.
+- Using SRM as the steganalysis feature, instead of Bayer constraint or  others.
