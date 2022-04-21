@@ -741,6 +741,7 @@ detect each manipulation method according to corresponding artifacts
 ### [TIFS 2019] Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection
 
 - [paper](https://ieeexplore.ieee.org/document/8737949)
+- Keywords: Anti-Spoofing
 
 #### I. Observation
 
@@ -749,10 +750,10 @@ detect each manipulation method according to corresponding artifacts
 - the MSR algorithm can be regarded as an optimized high pass filter, thus it can effectively preserve the high frequency components which is discriminative between the real and fake faces. 
 
 - 2 complementary information
-
   - RGB:  contains the detailed facial information yet is sensitive to illumination
-
   - MSR: invariant to illumination yet contains less detailed facial information
+
+- A **learning-based fusion method** inspired by attention mechanism to effectively fuse above two features.
 
 #### II. Method
 

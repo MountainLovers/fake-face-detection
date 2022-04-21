@@ -161,7 +161,7 @@ some collected paper and personal notes relevant to Fake Face Detetection
 1. ✅[CVPRW 2017] [Two-Stream Neural Networks for Tampered Face Detection](https://www.semanticscholar.org/paper/Two-Stream-Neural-Networks-for-Tampered-Face-Zhou-Han/5c04b3178af0cc5f367c833030c118701c210229#paper-header)
    - [note](https://github.com/MountainLovers/fake-face-detection/blob/master/detect.md#cvprw-2017-two-stream-neural-networks-for-tampered-face-detection);
    - Face Classification stream(GoogLeNet) + Patch Triplet stream(Steganalysis feature)
-2. [TIFS 2019] [Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)
+2. ✅[TIFS 2019] [Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)
    - [note](https://github.com/MountainLovers/fake-face-detection/blob/master/detect.md#tifs-2019-attention-based-two-stream-convolutional-networks-for-face-spoofing-detection); 
    - RGB stream(contain texture details) + MSR stream(illumination invariant) & Attention-based fusion
 3. [arXiv 2019] [Complement Face Forensic Detection and Localization with Facial Landmarks](https://arxiv.org/abs/1910.05455)
